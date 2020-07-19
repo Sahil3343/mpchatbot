@@ -43,6 +43,9 @@
 - expert mentoring needed
 - okay, i need expert mentoring
 - expert mentoring is needed
+- need to find a mentor
+- mentoring
+- Need expert mentoring
 
 ## intent:expert_AI
 - AI
@@ -69,3 +72,15 @@
 - expert mentoring ml
 - expert mentoring machine learning
 - expert mentoring in ML please
+- ML
+- i want mentoring in ml
+
+## intent:connect_agent
+- please connect me to a person 
+- connect me to person
+- please connect me to an agent 
+- connect to an agent
+- i want to talk to an agent
+- i want to talk to a person 
+- transfer my chat to a person 
+- transfer my chat to an agent 

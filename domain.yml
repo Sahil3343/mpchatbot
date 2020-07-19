@@ -12,6 +12,7 @@ intents:
 - student_discount
 - expert_ML
 - utter_expert_ML_details
+- connect_agent
 responses:
   utter_greet:
   - text: Hey! Welcome to MentorPlanet! How can I help you today?
@@ -30,6 +31,9 @@ responses:
   utter_expert_ML_details:
   - text: That's a great choice! Following are the details related to expert mentoring
       in ML.
+  utter_connect_agent:
+  - text: Sorry, currently no agents are available. You can email us at support@mentorplanet.in
+      with your queries and we will get back to you within 24-48 hours.
 actions:
 - utter_greet
 - utter_goodbye
@@ -39,3 +43,4 @@ actions:
 - expert_ML
 - utter_student_discount
 - utter_expert_ML_details
+- utter_connect_agent
