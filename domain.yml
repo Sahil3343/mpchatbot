@@ -1,32 +1,41 @@
-intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-
-responses:
-  utter_greet:
-  - text: "Hey! How are you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
-  utter_goodbye:
-  - text: "Bye"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- bot_challenge
+- expert_mentoring
+- expert_AI
+- student_discount
+- expert_ML
+- utter_expert_ML_details
+responses:
+  utter_greet:
+  - text: Hey! Welcome to MentorPlanet! How can I help you today?
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_expert_mentoring_details:
+  - text: In which domain are you looking for expert mentoring?
+  utter_expert_AI_details:
+  - text: That's a great choice! Following are the details related to expert mentoring
+      in AI.
+  utter_student_discount:
+  - text: Yes, we do provide a 15% discount on all of our courses upon verification
+      of student role.
+  utter_expert_ML_details:
+  - text: That's a great choice! Following are the details related to expert mentoring
+      in ML.
+actions:
+- utter_greet
+- utter_goodbye
+- utter_iamabot
+- utter_expert_mentoring_details
+- utter_expert_AI_details
+- expert_ML
+- utter_student_discount
+- utter_expert_ML_details

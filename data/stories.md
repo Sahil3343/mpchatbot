@@ -1,26 +1,10 @@
-## happy path
+## expert mentoring details path
 * greet
   - utter_greet
-* mood_great
-  - utter_happy
-
-## sad path 1
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* affirm
-  - utter_happy
-
-## sad path 2
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* deny
-  - utter_goodbye
+* expert_mentoring
+  - utter_expert_mentoring_details
+* expert_AI
+  - utter_expert_AI_details
 
 ## say goodbye
 * goodbye
@@ -29,3 +13,24 @@
 ## bot challenge
 * bot_challenge
   - utter_iamabot
+
+## student discount path
+* student_discount
+  - utter_student_discount
+
+## New Story
+
+* greet
+    - utter_greet
+* student_discount
+    - utter_student_discount
+* expert_mentoring
+    - utter_expert_mentoring_details
+* expert_AI
+    - utter_expert_AI_details
+* goodbye
+    - utter_goodbye
+
+## ML details
+* utter_expert_ML_details
+  - expert_ML
