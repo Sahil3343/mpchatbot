@@ -54,6 +54,7 @@
 - in Artificial intelligence 
 - related to AI
 - what about AI
+- ai
 
 ## intent:student_discount
 - Do you provide student discounts?
